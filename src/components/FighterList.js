@@ -2,9 +2,9 @@ import React from "react";
 import Fighter from "./Fighter";
 
 
-const FighterList = ({fighter}) => (
+const FighterList = ({fighters}) => (
     <div className="fighter-list">
-        { fighter.map(fighter => <Fighter name={fighter.name} image={fighter.image_url}/>) }
+        { fighters.map(fighter => <Fighter name={fighter.name} image={fighter.image_url}/>) }
     </div>
 
 
