@@ -1,5 +1,5 @@
 import React from 'react';
-import FighterList from './BookList';
+import FighterList from './FighterList';
 
 class FighterContainer extends React.Component {
   constructor() {
@@ -14,6 +14,8 @@ class FighterContainer extends React.Component {
     fetch('http://localhost:3000/fighters')
       .then(response => response.json())
       .then(fighterData => this.setState({ fighters: fighterData.fighters }))
+
+      
   }
 
   render() {

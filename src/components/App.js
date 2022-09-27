@@ -1,9 +1,8 @@
 import React from 'react';
-import FighterList from './FighterList';
-
+import FighterContainer from './FighterContainer';
 class App extends React.Component {
     render() {
-        return <FighterList />
+        return <FighterContainer />
     
     }
 }
