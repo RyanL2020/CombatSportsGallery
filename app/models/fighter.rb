@@ -1,3 +1,2 @@
-class Fighter < ActiveRecord::Base
-    belongs_to :user
-  end
+class Fighter < ApplicationRecord
+end
